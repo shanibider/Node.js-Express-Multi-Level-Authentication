@@ -1,4 +1,4 @@
-// Basic authentication - Regestration users with email and password (password stored unencrypte in db)
+// Basic authentication - Registration users with email and password (password stored unencrypted in db) 
 //work flow- npm init, npm i express ejs body-parser pg, create "secrets" db in pgAdmin, then "users" table.
 
 import express from "express";

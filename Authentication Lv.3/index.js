@@ -109,7 +109,6 @@ app.get("/auth/google", passport.authenticate("google", {
 
 
 
-
 app.get(
   "/auth/google/secrets",
   passport.authenticate("google", {
@@ -117,7 +116,6 @@ app.get(
     failureRedirect: "/login",
   })
 );
-
 
 
 

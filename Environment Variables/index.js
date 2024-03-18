@@ -14,7 +14,7 @@ env.config();
 
 app.use(
   session({
-    secret: "TOPSECRETWORD",  /***** Moving this specific varaibles to .env *****/
+    secret: process.env.SESSION_SECRET,  /***** Moving this specific varaibles to .env *****/
     resave: false,
     saveUninitialized: true,
   })
@@ -29,7 +29,7 @@ app.use(passport.session());
 
 
 
-/**********/
+/**********
 // Moving this varaibles to .env,
 // and replace it with "process.env.PG_USER..." 
 const db = new pg.Client({
@@ -39,7 +39,7 @@ const db = new pg.Client({
   password: "123456",
   port: 5432,
 });
-/**********/
+**********/
 
 
 
