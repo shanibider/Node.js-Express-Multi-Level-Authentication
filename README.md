@@ -58,7 +58,7 @@ Google `OAuth2` Authentication allows users to authenticate using their Google a
 
 OAuth 2.0 is an authorization framework that standardizes third-party access to HTTP services securely, allowing applications to act on behalf of users.
 
-<img align="center" height=650px src="https://github.com/shanibider/Node.js-Express-Multi-Level-Authentication/assets/72359805/191614c1-65aa-4da9-bf4e-0e7285e9e737">
+<img align="center" height=650px width=1200px src="https://github.com/shanibider/Node.js-Express-Multi-Level-Authentication/assets/72359805/191614c1-65aa-4da9-bf4e-0e7285e9e737">
 
 ## Key Roles
 
